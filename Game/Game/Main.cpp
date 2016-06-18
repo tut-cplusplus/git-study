@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//コメント
 int main(int argc, char** argv)
 {
 	cout << "hello, world!" << endl;

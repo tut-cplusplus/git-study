@@ -1,7 +1,8 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
+void printString(string);
 //コメント
 int main(int argc, char** argv)
 {
@@ -9,5 +10,16 @@ int main(int argc, char** argv)
 
 	getchar();
 
+	string str = "abcde";
+	printString(str);
 	return 0;
+}
+
+/** 文字列を出力する関数
+ *
+ * str：出力する文字列
+ * 返り値なし
+ */
+void printString(string str) {
+	cout << str << endl;
 }

@@ -12,6 +12,10 @@ int main(int argc, char** argv)
 
 	string str = "abcde";
 	printString(str);
+
+	//更新したぜ
+	cout << "Updated" << endl;
+
 	return 0;
 }
 

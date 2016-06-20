@@ -21,6 +21,9 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="some.hpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B9AB9151-5F19-4ABB-8087-6B8C41A69192}</ProjectGuid>
     <RootNamespace>Game</RootNamespace>

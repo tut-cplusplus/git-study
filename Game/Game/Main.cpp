@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
+#include "some.hpp"
 using namespace std;
-
-void printString(string);
 
 /**
  * [sampleFunction description]
@@ -40,6 +39,7 @@ int main(int argc, char** argv)
 	//更新したぜ
 	cout << "Updated" << endl;
 
+	getchar();
 	return 0;
 }
 
